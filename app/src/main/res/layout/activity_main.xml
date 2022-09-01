@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/PersonName_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="Name"
+
+            android:inputType="textCapWords" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toppings"
+            android:fontFamily="@font/poppins_light"
+            android:id="@+id/toppings_text_view"
+            android:textAllCaps="true"
+            />
+
+        <CheckBox
+            android:id="@+id/whippedCreamCheckBox_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/whipped_cream"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="16sp">
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/chocolateCheckBox_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/chocolate"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="16sp">
+
+        </CheckBox>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/poppins_light"
+            android:id="@+id/quantity_text_view"
+            android:textAllCaps="true"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_decrement"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+
+                android:onClick="decrement"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="0 "
+                android:fontFamily="@font/poppins_light"
+                android:id="@+id/number_text_view"
+                android:textSize="16sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                />
+            <Button
+                android:id="@+id/button_increment"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+
+                android:onClick="increment"
+
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ORDER_SUMMARY"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/poppins_light"
+            android:id="@+id/order_summary_text_view"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Total_0"
+
+                android:fontFamily="@font/poppins_light"
+                android:id="@+id/total_text_view"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_order"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/Order"
+            android:fontFamily="@font/poppins_medium"
+            android:onClick="submitOrder"
+            />
+
+
+    </LinearLayout>
+
+    </ScrollView>

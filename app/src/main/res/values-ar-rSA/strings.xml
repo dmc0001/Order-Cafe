@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اطلب قهوتك</string>
+    <string name="toppings">الاضافات</string>
+    <string name="chocolate">الشيكولاطة</string>
+    <string name="whipped_cream">الكريمة المخفوقة</string>
+    <string name="quantity">الكمية</string>
+    <string name="ORDER_SUMMARY">ملخص الطلب</string>
+    <string name="Order">اطلب</string>
+    <string name="Total_0">"اجمالي  : 0 $ "</string>
+</resources>

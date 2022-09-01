@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Order your cafe</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Quantity</string>ORDER SUMMARY
+    <string name="ORDER_SUMMARY">ORDER SUMMARY</string>Total : 0 $
+    <string name="Total_0">Total : 0 $</string>Order
+    <string name="Order">Order</string>
+</resources>

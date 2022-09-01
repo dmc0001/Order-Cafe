@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">commander du café</string>
+    <string name="toppings">Garnitures</string>
+    <string name="whipped_cream">Crème fouettée</string>
+    <string name="quantity">Quantité</string>
+    <string name="chocolate">Chocolat</string>
+    <string name="ORDER_SUMMARY">RÉCAPITULATIF DE LA COMMANDE</string>
+    <string name="Total_0">Somme : 0 $</string>
+    <string name="Order">Ordre</string>
+</resources>
